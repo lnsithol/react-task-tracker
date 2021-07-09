@@ -2,11 +2,33 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Build app for production
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm run build` or 
+
+### `yarn build` or 
+
+But first install the serve package globally by:
+
+### `npm i -g serve`
+
+## Serve the build
+
+To serve the build folder, you can run:
+
+### `serve -s build -p 4300`
+
+## Backend using json-server
+
+Install json-server local, run:
+
+### `npm i json-server`
+
+Add script to run the json-server:
+
+### `"server" : "json-server --watch db.json --port 5000" `
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
