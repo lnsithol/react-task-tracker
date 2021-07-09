@@ -2,6 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Build app for production
+
+In the project directory, you can run:
+
+### `npm run build` or 
+
+### `yarn build` or 
+
+But first install the serve package globally by:
+
+### `npm i -g serve`
+
+## Serve the build
+
+To serve the build folder, you can run:
+
+### `serve -s build -p 4300`
+
 ## Available Scripts
 
 In the project directory, you can run:
